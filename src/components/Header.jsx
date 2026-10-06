@@ -1,4 +1,4 @@
-import {Link} from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 const Header = () => {
   return (
@@ -19,7 +19,7 @@ const Header = () => {
             <Link to="/login" className='text-white text-lg no-underline hover:text-[#95ff00] hover:underline transition-all'>Login</Link>
           </li>
         </ul>
-      </nav>   
+      </nav>
     </header>
   )
 }
